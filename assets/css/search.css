@@ -1,0 +1,142 @@
+*{
+    font-family: helvetica;
+    text-align: center;
+}
+/*navigation bar*/
+header{
+    background: orange;
+    border-bottom:1px solid #3C2B8C;
+    box-shadow:0px 5px 10px -5px #3C2B8C;
+    padding: 1px 1px 1px 1px;
+}
+.topnav{
+    overflow: hidden;
+    background-color: orange;
+    margin-top: -102px;
+    margin-left: 250px;
+    padding-top: 50px;
+}
+.topnav a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    float: right;
+    font-size: 18px;
+    padding: 15px 15px;
+    margin-top: -50px
+}
+.topnav a:hover{
+    color: red;
+}
+#logo{
+    position: static;
+    display: flex;
+    margin-top: -1px;
+    margin-left: -1px;
+    width:;
+    height:100px;
+}
+.topnav form{
+    position: relative;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 4px solid white;
+    padding: 5px;
+    margin-left: 75%;
+}
+
+.topnav input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.topnav .fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+.topnav form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+.topnav form:hover input{
+    display: block;
+}
+
+.topnav form:hover .fa{
+    background: #07051a;
+    color: white;
+}
+
+
+/* Body */
+body{
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+.set1{
+    margin-top: 10%;
+}
+.set2{
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+.menus{
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+}
+.linkMenu{
+    text-decoration: none;
+    text-align: left;
+}
+
+/* Footer*/
+footer{
+    background-color:orange;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer .copyright{
+    margin: 15px;
+    color: bisque;
+}
+footer .ftlink{
+    text-decoration: none;
+    margin: 6px;
+    color: bisque;
+}
+footer a:hover{
+    color: red;
+}

@@ -1,0 +1,130 @@
+*{
+    font-family: helvetica;
+    text-align: center;
+    margin: 0;
+}
+/*navigation bar*/
+header{
+    background: cadetblue;
+    border-bottom:1px solid #3C2B8C;
+    box-shadow:0px 5px 10px -5px #3C2B8C;
+    padding: 1px 1px 1px 1px;
+}
+.topnav{
+    overflow: hidden;
+    background-color: cadetblue;
+    margin-top: -52px;
+    margin-left: 250px
+}
+.topnav a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    float: right;
+    font-size: 18px;
+    padding: 15px 15px;
+}
+.topnav a:hover{
+    color: violet;
+}
+#logo{
+    position: static;
+    display: flex;
+    width:;
+    height:100px;
+}
+
+/*Center page */
+.container{
+    padding: 100px 100px 100px 100px;
+}
+
+.top{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    padding: 30px;
+}
+
+.w3content{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    border-style: solid;
+    border-radius: 5px;
+}
+.w3center{
+    width: 1000px;
+    margin: auto;
+}
+.w3button{
+    color: aliceblue;
+    background-color:cadetblue;
+    width: 60px;
+    font-size: 15px;
+    margin: 10px;
+}
+.w3button2{
+    color: aliceblue;
+    background-color:cadetblue;
+    width: 20px;
+    margin-top: 5px;
+    margin-top: 10px;
+}
+.w3button3{
+    color: aliceblue;
+    background-color:cadetblue;
+    width: 60px;
+    margin-top: 10px;
+}
+.about{
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+}
+h4{
+    margin: auto;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 25px;
+    width: 660px;
+    font-weight: 600;
+}
+.list{
+    padding:50px;
+    margin: auto;
+    font-weight: 500;
+    width:650px;
+}
+.list ul{
+    list-style: none;
+}
+.button3{
+    width: 450px;
+}
+body{
+    text-align: center;
+    margin: 0;
+    background-color: bisque;
+}
+
+/* Footer*/
+footer{
+    background-color:cadetblue;
+    padding: 10px;
+}
+footer .copyright{
+    margin: 15px;
+    color: bisque;
+}
+footer .ftlink{
+    text-decoration: none;
+    margin: 6px;
+    color: bisque;
+}
+footer a:hover{
+    color: violet;
+}
